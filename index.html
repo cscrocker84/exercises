@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banking Form</title>
+</head>
+<body>
+  <h1>Banking Form</h1>
+
+  
+    
+        <form action="/my-handling-form-page" method="post">
+        
+    <li>
+        <label for="first_name">Applicant First Name</label>
+        <input type="text" id="applicant_first_name" name="user_first_name" />
+    </li>
+    <li>
+        <label for="middle-initial">Applicant Middle Initial:</label>
+        <input type="text" id="applicant_middle_initial" name="user_middle_initial" />
+    </li>
+    <li>
+        <label for="last_name">Applicant Last Name</label>
+        <input type="text" id="applicant_last_name" name="user_last_name" />
+    </li>
+    <li>
+        <label for="address">Applicant Address</label>
+        <input type="text" id="applicant_address" name="applicant_address" />
+    </li>
+    <li>
+        <label for="ocupation">Applicant Occupation</label>
+        <input type="text" id="applicant_occupation" name="applicant_occupation" />
+    </li>
+    <li>
+        <label for="employer">Applicant Employer</label>
+        <input type="text" id="applicant_employer" name="applicant_employer" />
+    </li>
+    <li>
+        <label for="employer_address">Employer Address</label>
+        <input type="text" id="employer_address" name="employer_address" />
+    </li>
+    <li>Type of Loan</li>
+    <select name="select">
+  <option>Commercial</option> 
+  <option>Real Estate</option>
+  <option>Personal</option>
+  <option>Mortgage</option>
+</select>
+    <li>
+        <label for="loan-amount">Requested Amount of Loan</label>
+        <input type="text" id="loan-amount" name="loan-amount" />
+
+</li>
+<li>
+    <label>Loan Length</label><br>
+    <input type="radio" name="loan-length" value="5-years" id="5-years"><label for="5-years">5 Years</label><br>
+      <input type="radio" name="loan-length" value="15-years" id="15-years"><label for="15-years">15 Years</label><br>
+        <input type="radio" name="loan-length" value="30-years" id="30-years"><label for="30-years">30 Years</label>
+</li>
+<li>
+    <label>Special Conditions</label><br>
+    <input type="checkbox" name="special-conditions" value="down-payment" id="down-payment"><label for="down-payment">I have a down payment</label><br>
+    <input type="checkbox" name="special-conditions" value="out-of-state" id="out-of-state"><label for="out-of-state">Out of State resident</label><br>
+    <input type="checkbox" name="special-conditions" value="married" id="married"><label for="married">Married</label><br>
+    <input type="checkbox" name="special-conditions" value="co-sign" id="co-sign"><label for="co-sign">Loan will be co-signed</label><br>
+</li>
+<li>
+<textarea rows="20" cols="40">Additional Comments</textarea>
+</li>
+<li>
+  <label for="email">Applicant Email</label>
+        <input type="email" id="email" name="email" />  
+
+</li>
+    </ul>
+    
+   
+
+</form>
+</body>
+
+   
+
+
